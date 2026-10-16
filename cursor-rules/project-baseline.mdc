@@ -1,0 +1,9 @@
+---
+description: Baseline facts about this project
+alwaysApply: true
+---
+
+- This is [PROJECT NAME]: [ONE LINE]. Stack: [STACK].
+- Run `[CHECK COMMAND]` before saying a task is done.
+- Ask before adding dependencies. Never edit generated files or `.env*`.
+- Small, reviewable changes. Say what you changed and what you did not verify.
