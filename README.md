@@ -26,7 +26,7 @@ Six free, copy-paste starting points for telling AI coding agents how your proje
 ## More
 
 - Free in-browser generator that outputs `AGENTS.md`, `CLAUDE.md`, a Cursor rule and a Copilot file for your stack: <https://agentkitco.com/tools/agents-md-generator/>
-- Maintained by [AgentKit Co](https://agentkitco.com). A longer paid kit with templates for 12 stacks is available as the [AI Coding Agent Config Kit](https://burmunster.gumroad.com/l/agent-config-kit) (PDF). Everything in this repo is free and nothing here is held back from it.
+- Maintained by [AgentKit Co](https://agentkitco.com). A longer paid kit is available as the [AI Coding Agent Config Kit](https://agentkitco.com/products/agent-config-kit/) ($14): a 34-page PDF plus a drop-in ZIP of 54 files (AGENTS.md templates for 12 stacks, 8 Cursor `.mdc` rules, 3 Claude Code rule files, 3 Copilot files and 12 audit/test prompts). Everything in this repo is free and nothing here is held back from it.
 
 ## License
 
