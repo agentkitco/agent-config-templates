@@ -16,3 +16,7 @@ MOVE: only matters for part of the repo, so it belongs in a path-scoped rule or 
 
 Output a table: line number | group | reason. Then show the trimmed file and a one-line summary of how many lines you removed. Wait for my approval before writing anything.
 ```
+
+---
+
+Free prompt from [AgentKit Co](https://agentkitco.com) (CC BY 4.0). Want more? The [AI Coding Agent Config Kit](https://agentkitco.com/products/agent-config-kit/) ($14) has 12 audit and test prompts, plus AGENTS.md templates for 12 stacks and ready Cursor, Claude Code and Copilot rule files.

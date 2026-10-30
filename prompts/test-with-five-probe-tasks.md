@@ -11,3 +11,7 @@ Write five small probe tasks that would reveal whether the file is good enough, 
 
 Finish with the three edits that would improve the file most.
 ```
+
+---
+
+Free prompt from [AgentKit Co](https://agentkitco.com) (CC BY 4.0). Want more? The [AI Coding Agent Config Kit](https://agentkitco.com/products/agent-config-kit/) ($14) has 12 audit and test prompts, plus AGENTS.md templates for 12 stacks and ready Cursor, Claude Code and Copilot rule files.

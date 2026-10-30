@@ -15,3 +15,7 @@ Step 5: Ask me up to 5 questions you cannot answer from the repository.
 
 Stop and wait for my answers. After that, draft AGENTS.md under [120] lines with these sections: Project, Commands, Layout, Conventions, Boundaries, Git. Leave out anything a developer would learn by reading the code or that [TOOL] already knows.
 ```
+
+---
+
+Free prompt from [AgentKit Co](https://agentkitco.com) (CC BY 4.0). Want more? The [AI Coding Agent Config Kit](https://agentkitco.com/products/agent-config-kit/) ($14) has 12 audit and test prompts, plus AGENTS.md templates for 12 stacks and ready Cursor, Claude Code and Copilot rule files.
