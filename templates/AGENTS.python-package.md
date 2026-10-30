@@ -1,4 +1,4 @@
-<!-- Free template from AgentKit Co (https://github.com/agentkitco/agent-config-templates, CC BY 4.0). Delete this comment after copying. Templates for 10 more stacks are in the AI Coding Agent Config Kit ($14): https://agentkitco.com/products/agent-config-kit/ -->
+<!-- Free template from AgentKit Co (https://github.com/agentkitco/agent-config-templates, CC BY 4.0). Delete this comment after copying. AGENTS.md templates for 12 stacks are in the AI Coding Agent Config Kit ($14): https://agentkitco.com/products/agent-config-kit/ -->
 # AGENTS.md
 
 ## Project
