@@ -17,6 +17,15 @@ Six free, copy-paste starting points for telling AI coding agents how your proje
 2. Replace every `[BRACKETED]` value with your real commands, paths and versions. The defaults are common commands and may be wrong for your project.
 3. If you also use Claude Code, a short `CLAUDE.md` containing `@AGENTS.md` imports the same file (see Anthropic's Claude Code memory docs). Check each tool's current documentation, since formats change.
 
+## If the agent ignores your file
+
+Free troubleshooting guides and examples from AgentKit Co:
+
+- [AGENTS.md not working? Fixes](https://agentkitco.com/blog/agents-md-not-working/)
+- [CLAUDE.md not working? Fixes](https://agentkitco.com/blog/claude-md-not-working/)
+- [Cursor rules not working? Fixes](https://agentkitco.com/blog/cursor-rules-not-working/)
+- Worked examples: [AGENTS.md](https://agentkitco.com/blog/agents-md-examples/), [CLAUDE.md](https://agentkitco.com/blog/claude-md-examples/), [Cursor rules](https://agentkitco.com/blog/cursor-rules-examples/), [copilot-instructions.md](https://agentkitco.com/blog/copilot-instructions-md-examples/)
+
 ## Honest notes
 
 - These templates were written with AI assistance. They are starting points, not tested guarantees. Review them and try them on your own project.
