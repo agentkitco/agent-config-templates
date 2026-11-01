@@ -24,6 +24,7 @@ Free troubleshooting guides and examples from AgentKit Co:
 - [AGENTS.md not working? Fixes](https://agentkitco.com/blog/agents-md-not-working/)
 - [CLAUDE.md not working? Fixes](https://agentkitco.com/blog/claude-md-not-working/)
 - [Cursor rules not working? Fixes](https://agentkitco.com/blog/cursor-rules-not-working/)
+- [Still on `.cursorrules`? Migrate it to `.mdc` project rules](https://agentkitco.com/blog/migrate-cursorrules-to-mdc/)
 - Worked examples: [AGENTS.md](https://agentkitco.com/blog/agents-md-examples/), [CLAUDE.md](https://agentkitco.com/blog/claude-md-examples/), [Cursor rules](https://agentkitco.com/blog/cursor-rules-examples/), [copilot-instructions.md](https://agentkitco.com/blog/copilot-instructions-md-examples/)
 
 ## Honest notes
