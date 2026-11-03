@@ -1,19 +1,21 @@
 # Agent config templates
 
-Six free, copy-paste starting points for telling AI coding agents how your project works: two `AGENTS.md` templates, one Cursor rule, and three prompts that draft, audit and test an instruction file.
+Eight free, copy-paste starting points for telling AI coding agents how your project works: two `AGENTS.md` templates, one Cursor rule, two GitHub Copilot files, and three prompts that draft, audit and test an instruction file.
 
 | File | What it is |
 |---|---|
 | [templates/AGENTS.nextjs-typescript.md](templates/AGENTS.nextjs-typescript.md) | `AGENTS.md` for a Next.js (App Router) + TypeScript app |
 | [templates/AGENTS.python-package.md](templates/AGENTS.python-package.md) | `AGENTS.md` for a Python package or script collection with pytest |
 | [cursor-rules/project-baseline.mdc](cursor-rules/project-baseline.mdc) | Always-on Cursor project rule (`.cursor/rules/`) |
+| [copilot/copilot-instructions.md](copilot/copilot-instructions.md) | Repository-wide GitHub Copilot instructions (`.github/copilot-instructions.md`), including code review rules |
+| [copilot/tests.instructions.md](copilot/tests.instructions.md) | Path-specific Copilot instructions with an `applyTo` glob (`.github/instructions/`) |
 | [prompts/draft-agents-md-from-repo.md](prompts/draft-agents-md-from-repo.md) | Prompt: have an agent propose an `AGENTS.md` from your repo |
 | [prompts/audit-and-trim-instruction-file.md](prompts/audit-and-trim-instruction-file.md) | Prompt: audit and trim an instruction file that has grown noisy |
 | [prompts/test-with-five-probe-tasks.md](prompts/test-with-five-probe-tasks.md) | Prompt: test whether the file actually works |
 
 ## How to use
 
-1. Copy a template into your repo (for example `AGENTS.md` at the root, or `.cursor/rules/project-baseline.mdc`).
+1. Copy a template into your repo (for example `AGENTS.md` at the root, `.cursor/rules/project-baseline.mdc`, or `.github/copilot-instructions.md`).
 2. Replace every `[BRACKETED]` value with your real commands, paths and versions. The defaults are common commands and may be wrong for your project.
 3. If you also use Claude Code, a short `CLAUDE.md` containing `@AGENTS.md` imports the same file (see Anthropic's Claude Code memory docs). Check each tool's current documentation, since formats change.
 
