@@ -29,6 +29,7 @@ Free troubleshooting guides and examples from AgentKit Co:
 - [Copilot ignoring `copilot-instructions.md`? Fixes](https://agentkitco.com/blog/copilot-instructions-not-working/)
 - [AI coding agent stuck in a loop? How to break it](https://agentkitco.com/blog/ai-coding-agent-stuck-in-loop/)
 - [Still on `.cursorrules`? Migrate it to `.mdc` project rules](https://agentkitco.com/blog/migrate-cursorrules-to-mdc/)
+- [Reviewing what the agent wrote? A 10-step checklist for AI-generated pull requests](https://agentkitco.com/blog/review-ai-generated-pull-requests/)
 - Worked examples: [AGENTS.md](https://agentkitco.com/blog/agents-md-examples/), [CLAUDE.md](https://agentkitco.com/blog/claude-md-examples/), [Cursor rules](https://agentkitco.com/blog/cursor-rules-examples/), [copilot-instructions.md](https://agentkitco.com/blog/copilot-instructions-md-examples/)
 
 ## Honest notes
