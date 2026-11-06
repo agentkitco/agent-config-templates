@@ -1,11 +1,13 @@
 # Agent config templates
 
-Eight free, copy-paste starting points for telling AI coding agents how your project works: two `AGENTS.md` templates, one Cursor rule, two GitHub Copilot files, and three prompts that draft, audit and test an instruction file.
+Ten free, copy-paste starting points for telling AI coding agents how your project works: two `AGENTS.md` templates, one Cursor rule, two GitHub Copilot files, and three prompts that draft, audit and test an instruction file.
 
 | File | What it is |
 |---|---|
 | [templates/AGENTS.nextjs-typescript.md](templates/AGENTS.nextjs-typescript.md) | `AGENTS.md` for a Next.js (App Router) + TypeScript app |
 | [templates/AGENTS.python-package.md](templates/AGENTS.python-package.md) | `AGENTS.md` for a Python package or script collection with pytest |
+| [stack-starters/AGENTS.nextjs-typescript.md](stack-starters/AGENTS.nextjs-typescript.md) | Polished Next.js App Router + TypeScript `AGENTS.md` (commands, review habits, soft CTA) |
+| [stack-starters/AGENTS.python-fastapi.md](stack-starters/AGENTS.python-fastapi.md) | Polished Python FastAPI `AGENTS.md` (routers, pydantic, review habits, soft CTA) |
 | [cursor-rules/project-baseline.mdc](cursor-rules/project-baseline.mdc) | Always-on Cursor project rule (`.cursor/rules/`) |
 | [copilot/copilot-instructions.md](copilot/copilot-instructions.md) | Repository-wide GitHub Copilot instructions (`.github/copilot-instructions.md`), including code review rules |
 | [copilot/tests.instructions.md](copilot/tests.instructions.md) | Path-specific Copilot instructions with an `applyTo` glob (`.github/instructions/`) |
@@ -37,6 +39,18 @@ Free troubleshooting guides and examples from AgentKit Co:
 - These templates were written with AI assistance. They are starting points, not tested guarantees. Review them and try them on your own project.
 - Instruction files are guidance for an agent, not enforcement. Keep real checks in CI.
 - AgentKit Co is not affiliated with or endorsed by Anthropic, Cursor, GitHub, Microsoft or OpenAI.
+
+
+## Free stack AGENTS.md
+
+Ready-to-drop starters (longer than the short bracket templates above). Copy either file to your repo root as `AGENTS.md`, fill the `[BRACKETED]` bits, and trim what you do not need.
+
+| Stack | File |
+|---|---|
+| Next.js App Router + TypeScript | [stack-starters/AGENTS.nextjs-typescript.md](stack-starters/AGENTS.nextjs-typescript.md) |
+| Python FastAPI + pydantic v2 | [stack-starters/AGENTS.python-fastapi.md](stack-starters/AGENTS.python-fastapi.md) |
+
+Need a blockers-first review after the agent opens a PR? The [AI PR Review Kit](https://agentkitco.com/products/ai-pr-review-kit/) ($17) pairs with these starters. More stacks and Cursor/Copilot files: [AI Coding Agent Config Kit](https://agentkitco.com/products/agent-config-kit/) ($14). Site: <https://agentkitco.com/>.
 
 ## More
 
