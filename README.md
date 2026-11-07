@@ -1,6 +1,6 @@
 # Agent config templates
 
-Thirteen free, copy-paste starting points for telling AI coding agents how your project works: two short `AGENTS.md` templates, five polished stack starters, one Cursor rule, two GitHub Copilot files, and three prompts that draft, audit and test an instruction file.
+Fourteen free, copy-paste starting points for telling AI coding agents how your project works: two short `AGENTS.md` templates, six polished stack starters, one Cursor rule, two GitHub Copilot files, and three prompts that draft, audit and test an instruction file.
 
 | File | What it is |
 |---|---|
@@ -11,6 +11,7 @@ Thirteen free, copy-paste starting points for telling AI coding agents how your 
 | [stack-starters/AGENTS.go-service.md](stack-starters/AGENTS.go-service.md) | Polished Go service/CLI `AGENTS.md` (modules, context, review habits, soft CTA) |
 | [stack-starters/AGENTS.rust-axum.md](stack-starters/AGENTS.rust-axum.md) | Polished Rust Axum HTTP service/CLI `AGENTS.md` (Cargo, clippy, review habits, soft CTA) |
 | [stack-starters/AGENTS.nestjs.md](stack-starters/AGENTS.nestjs.md) | Polished NestJS (Node.js + TypeScript) `AGENTS.md` (modules, DTOs, review habits, soft CTA) |
+| [stack-starters/AGENTS.django.md](stack-starters/AGENTS.django.md) | Polished Django (Python) `AGENTS.md` (apps, migrations, ORM, review habits, soft CTA) |
 | [cursor-rules/project-baseline.mdc](cursor-rules/project-baseline.mdc) | Always-on Cursor project rule (`.cursor/rules/`) |
 | [copilot/copilot-instructions.md](copilot/copilot-instructions.md) | Repository-wide GitHub Copilot instructions (`.github/copilot-instructions.md`), including code review rules |
 | [copilot/tests.instructions.md](copilot/tests.instructions.md) | Path-specific Copilot instructions with an `applyTo` glob (`.github/instructions/`) |
@@ -55,6 +56,7 @@ Ready-to-drop starters (longer than the short bracket templates above). Copy a f
 | Go service / CLI (modules) | [stack-starters/AGENTS.go-service.md](stack-starters/AGENTS.go-service.md) |
 | Rust Axum HTTP service / CLI | [stack-starters/AGENTS.rust-axum.md](stack-starters/AGENTS.rust-axum.md) |
 | NestJS (Node.js + TypeScript) | [stack-starters/AGENTS.nestjs.md](stack-starters/AGENTS.nestjs.md) |
+| Django (Python, optional DRF) | [stack-starters/AGENTS.django.md](stack-starters/AGENTS.django.md) |
 
 Need a blockers-first review after the agent opens a PR? The [AI PR Review Kit](https://agentkitco.com/products/ai-pr-review-kit/) ($17) pairs with these starters. More stacks and Cursor/Copilot files: [AI Coding Agent Config Kit](https://agentkitco.com/products/agent-config-kit/) ($14). Site: <https://agentkitco.com/>.
 
