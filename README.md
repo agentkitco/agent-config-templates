@@ -1,6 +1,6 @@
 # Agent config templates
 
-Eighteen free, copy-paste starting points for telling AI coding agents how your project works: two short `AGENTS.md` templates, ten polished stack starters, one Cursor rule, two GitHub Copilot files, and three prompts that draft, audit and test an instruction file.
+Nineteen free, copy-paste starting points for telling AI coding agents how your project works: two short `AGENTS.md` templates, eleven polished stack starters, one Cursor rule, two GitHub Copilot files, and three prompts that draft, audit and test an instruction file.
 
 | File | What it is |
 |---|---|
@@ -16,6 +16,7 @@ Eighteen free, copy-paste starting points for telling AI coding agents how your 
 | [stack-starters/AGENTS.laravel.md](stack-starters/AGENTS.laravel.md) | Polished Laravel (PHP) `AGENTS.md` (Eloquent, Form Requests, migrations, review habits, soft CTA) |
 | [stack-starters/AGENTS.spring-boot.md](stack-starters/AGENTS.spring-boot.md) | Polished Spring Boot (Java) `AGENTS.md` (Maven/Gradle, DTOs, transactions, Flyway, review habits, soft CTA) |
 | [stack-starters/AGENTS.aspnet-core.md](stack-starters/AGENTS.aspnet-core.md) | Polished ASP.NET Core (C# / .NET) `AGENTS.md` (dotnet CLI, EF Core migrations, DI lifetimes, async, review habits, soft CTA) |
+| [stack-starters/AGENTS.nuxt.md](stack-starters/AGENTS.nuxt.md) | Polished Nuxt (Vue 3) `AGENTS.md` (app/pages, Nitro server/api, useFetch, review habits, soft CTA) |
 | [cursor-rules/project-baseline.mdc](cursor-rules/project-baseline.mdc) | Always-on Cursor project rule (`.cursor/rules/`) |
 | [copilot/copilot-instructions.md](copilot/copilot-instructions.md) | Repository-wide GitHub Copilot instructions (`.github/copilot-instructions.md`), including code review rules |
 | [copilot/tests.instructions.md](copilot/tests.instructions.md) | Path-specific Copilot instructions with an `applyTo` glob (`.github/instructions/`) |
@@ -65,6 +66,7 @@ Ready-to-drop starters (longer than the short bracket templates above). Copy a f
 | Laravel (PHP 8.2+, 11.x / 12.x) | [stack-starters/AGENTS.laravel.md](stack-starters/AGENTS.laravel.md) |
 | Spring Boot 3.x (Java 17 / 21) | [stack-starters/AGENTS.spring-boot.md](stack-starters/AGENTS.spring-boot.md) |
 | ASP.NET Core (.NET 8 / 9, C#) | [stack-starters/AGENTS.aspnet-core.md](stack-starters/AGENTS.aspnet-core.md) |
+| Nuxt 4 / 3 (Vue 3, Nitro) | [stack-starters/AGENTS.nuxt.md](stack-starters/AGENTS.nuxt.md) |
 
 Need a blockers-first review after the agent opens a PR? The [AI PR Review Kit](https://agentkitco.com/products/ai-pr-review-kit/) ($17) pairs with these starters. More stacks and Cursor/Copilot files: [AI Coding Agent Config Kit](https://agentkitco.com/products/agent-config-kit/) ($14). Site: <https://agentkitco.com/>.
 
