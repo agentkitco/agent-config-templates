@@ -1,6 +1,6 @@
 # Agent config templates
 
-Twenty-three free, copy-paste starting points for telling AI coding agents how your project works: two short `AGENTS.md` templates, fifteen polished stack starters, one Cursor rule, two GitHub Copilot files, and three prompts that draft, audit and test an instruction file.
+Twenty-four free, copy-paste starting points for telling AI coding agents how your project works: two short `AGENTS.md` templates, sixteen polished stack starters, one Cursor rule, two GitHub Copilot files, and three prompts that draft, audit and test an instruction file.
 
 | File | What it is |
 |---|---|
@@ -21,6 +21,7 @@ Twenty-three free, copy-paste starting points for telling AI coding agents how y
 | [stack-starters/AGENTS.express-typescript.md](stack-starters/AGENTS.express-typescript.md) | Polished Express (Node.js + TypeScript) `AGENTS.md` (thin handlers, zod validation, async errors, middleware order, supertest, review habits, soft CTA) |
 | [stack-starters/AGENTS.flask.md](stack-starters/AGENTS.flask.md) | Polished Flask (Python) `AGENTS.md` (app factory, blueprints, Flask-Migrate, CSRF, Jinja escaping, pytest, review habits, soft CTA) |
 | [stack-starters/AGENTS.hono.md](stack-starters/AGENTS.hono.md) | Polished Hono (TypeScript) `AGENTS.md` (Workers/Node/Deno/Bun, zValidator, Bindings, app.request tests, review habits, soft CTA) |
+| [stack-starters/AGENTS.astro.md](stack-starters/AGENTS.astro.md) | Polished Astro (TypeScript) `AGENTS.md` (zero-JS islands, content collections, astro:assets, astro check/build, review habits, soft CTA) |
 | [cursor-rules/project-baseline.mdc](cursor-rules/project-baseline.mdc) | Always-on Cursor project rule (`.cursor/rules/`) |
 | [copilot/copilot-instructions.md](copilot/copilot-instructions.md) | Repository-wide GitHub Copilot instructions (`.github/copilot-instructions.md`), including code review rules |
 | [copilot/tests.instructions.md](copilot/tests.instructions.md) | Path-specific Copilot instructions with an `applyTo` glob (`.github/instructions/`) |
@@ -75,6 +76,7 @@ Ready-to-drop starters (longer than the short bracket templates above). Copy a f
 | Express (Node.js + TypeScript) | [stack-starters/AGENTS.express-typescript.md](stack-starters/AGENTS.express-typescript.md) |
 | Flask (Python, app factory) | [stack-starters/AGENTS.flask.md](stack-starters/AGENTS.flask.md) |
 | Hono 4 (TypeScript, Workers / Node / Deno / Bun) | [stack-starters/AGENTS.hono.md](stack-starters/AGENTS.hono.md) |
+| Astro 5 (TypeScript, static or server) | [stack-starters/AGENTS.astro.md](stack-starters/AGENTS.astro.md) |
 
 Need a blockers-first review after the agent opens a PR? The [AI PR Review Kit](https://agentkitco.com/products/ai-pr-review-kit/) ($17) pairs with these starters. More stacks and Cursor/Copilot files: [AI Coding Agent Config Kit](https://agentkitco.com/products/agent-config-kit/) ($14). Site: <https://agentkitco.com/>.
 
