@@ -1,6 +1,6 @@
 # Agent config templates
 
-Twenty free, copy-paste starting points for telling AI coding agents how your project works: two short `AGENTS.md` templates, twelve polished stack starters, one Cursor rule, two GitHub Copilot files, and three prompts that draft, audit and test an instruction file.
+Twenty-one free, copy-paste starting points for telling AI coding agents how your project works: two short `AGENTS.md` templates, thirteen polished stack starters, one Cursor rule, two GitHub Copilot files, and three prompts that draft, audit and test an instruction file.
 
 | File | What it is |
 |---|---|
@@ -18,6 +18,7 @@ Twenty free, copy-paste starting points for telling AI coding agents how your pr
 | [stack-starters/AGENTS.aspnet-core.md](stack-starters/AGENTS.aspnet-core.md) | Polished ASP.NET Core (C# / .NET) `AGENTS.md` (dotnet CLI, EF Core migrations, DI lifetimes, async, review habits, soft CTA) |
 | [stack-starters/AGENTS.nuxt.md](stack-starters/AGENTS.nuxt.md) | Polished Nuxt (Vue 3) `AGENTS.md` (app/pages, Nitro server/api, useFetch, review habits, soft CTA) |
 | [stack-starters/AGENTS.sveltekit.md](stack-starters/AGENTS.sveltekit.md) | Polished SvelteKit (Svelte 5) `AGENTS.md` (routes, load/actions, runes, $lib/server, review habits, soft CTA) |
+| [stack-starters/AGENTS.express-typescript.md](stack-starters/AGENTS.express-typescript.md) | Polished Express (Node.js + TypeScript) `AGENTS.md` (thin handlers, zod validation, async errors, middleware order, supertest, review habits, soft CTA) |
 | [cursor-rules/project-baseline.mdc](cursor-rules/project-baseline.mdc) | Always-on Cursor project rule (`.cursor/rules/`) |
 | [copilot/copilot-instructions.md](copilot/copilot-instructions.md) | Repository-wide GitHub Copilot instructions (`.github/copilot-instructions.md`), including code review rules |
 | [copilot/tests.instructions.md](copilot/tests.instructions.md) | Path-specific Copilot instructions with an `applyTo` glob (`.github/instructions/`) |
