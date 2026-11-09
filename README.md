@@ -1,6 +1,6 @@
 # Agent config templates
 
-Twenty-seven free, copy-paste starting points for telling AI coding agents how your project works: two short `AGENTS.md` templates, nineteen polished stack starters, one Cursor rule, two GitHub Copilot files, and three prompts that draft, audit and test an instruction file.
+Twenty-eight free, copy-paste starting points for telling AI coding agents how your project works: two short `AGENTS.md` templates, twenty polished stack starters, one Cursor rule, two GitHub Copilot files, and three prompts that draft, audit and test an instruction file.
 
 | File | What it is |
 |---|---|
@@ -25,6 +25,7 @@ Twenty-seven free, copy-paste starting points for telling AI coding agents how y
 | [stack-starters/AGENTS.phoenix.md](stack-starters/AGENTS.phoenix.md) | Polished Phoenix (Elixir) `AGENTS.md` (contexts, changesets, Ecto migrations, LiveView streams, verified routes, ExUnit, review habits, soft CTA) |
 | [stack-starters/AGENTS.vite-react.md](stack-starters/AGENTS.vite-react.md) | Polished Vite + React (TypeScript) SPA `AGENTS.md` (strict TS, hooks rules, no effects for derived data, public VITE_ env vars, Vitest + Testing Library, review habits, soft CTA) |
 | [stack-starters/AGENTS.angular.md](stack-starters/AGENTS.angular.md) | Polished Angular (TypeScript) `AGENTS.md` (standalone components, signals, takeUntilDestroyed, @for track, OnPush, interceptors, typed forms, TestBed, review habits, soft CTA) |
+| [stack-starters/AGENTS.expo-react-native.md](stack-starters/AGENTS.expo-react-native.md) | Polished Expo (React Native + TypeScript) `AGENTS.md` (Expo Router, `npx expo install`, CNG native folders, secure-store tokens, public `EXPO_PUBLIC_` vars, permissions, RN Testing Library, EAS ask-first, review habits, soft CTA) |
 | [cursor-rules/project-baseline.mdc](cursor-rules/project-baseline.mdc) | Always-on Cursor project rule (`.cursor/rules/`) |
 | [copilot/copilot-instructions.md](copilot/copilot-instructions.md) | Repository-wide GitHub Copilot instructions (`.github/copilot-instructions.md`), including code review rules |
 | [copilot/tests.instructions.md](copilot/tests.instructions.md) | Path-specific Copilot instructions with an `applyTo` glob (`.github/instructions/`) |
@@ -83,6 +84,7 @@ Ready-to-drop starters (longer than the short bracket templates above). Copy a f
 | Phoenix 1.7 / 1.8 (Elixir, Ecto, LiveView) | [stack-starters/AGENTS.phoenix.md](stack-starters/AGENTS.phoenix.md) |
 | Vite + React (TypeScript SPA) | [stack-starters/AGENTS.vite-react.md](stack-starters/AGENTS.vite-react.md) |
 | Angular (TypeScript) | [stack-starters/AGENTS.angular.md](stack-starters/AGENTS.angular.md) |
+| Expo (React Native + TypeScript) | [stack-starters/AGENTS.expo-react-native.md](stack-starters/AGENTS.expo-react-native.md) |
 
 Need a blockers-first review after the agent opens a PR? The [AI PR Review Kit](https://agentkitco.com/products/ai-pr-review-kit/) ($17) pairs with these starters. More stacks and Cursor/Copilot files: [AI Coding Agent Config Kit](https://agentkitco.com/products/agent-config-kit/) ($14). Site: <https://agentkitco.com/>.
 
