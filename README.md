@@ -1,6 +1,6 @@
 # Agent config templates
 
-Thirty-one free, copy-paste starting points for telling AI coding agents how your project works: two short `AGENTS.md` templates, twenty-three polished stack starters, one Cursor rule, two GitHub Copilot files, and three prompts that draft, audit and test an instruction file.
+Thirty-two free, copy-paste starting points for telling AI coding agents how your project works: two short `AGENTS.md` templates, twenty-four polished stack starters, one Cursor rule, two GitHub Copilot files, and three prompts that draft, audit and test an instruction file.
 
 | File | What it is |
 |---|---|
@@ -29,6 +29,7 @@ Thirty-one free, copy-paste starting points for telling AI coding agents how you
 | [stack-starters/AGENTS.flutter.md](stack-starters/AGENTS.flutter.md) | Polished Flutter (Dart) `AGENTS.md` (dart format/analyze, const widgets, dispose controllers, `context.mounted` after await, repositories, generated-file rules, secure storage, widget tests, release ask-first, review habits, soft CTA) |
 | [stack-starters/AGENTS.android-kotlin.md](stack-starters/AGENTS.android-kotlin.md) | Polished Android (Kotlin + Jetpack Compose) `AGENTS.md` (Gradle version catalog, ViewModel + StateFlow, lifecycle-aware collection, stateless composables, injected dispatchers, string resources, Keystore-backed tokens, Compose UI tests, manifest/SDK changes ask-first, review habits, soft CTA) |
 | [stack-starters/AGENTS.ios-swiftui.md](stack-starters/AGENTS.ios-swiftui.md) | Polished iOS (Swift + SwiftUI) `AGENTS.md` (xcodebuild with a real simulator, one owner per state, `.task` and `@MainActor`, no force unwraps, injected services, string catalogs and Dynamic Type, Keychain tokens, `.pbxproj` care, Info.plist/entitlements/privacy manifest ask-first, review habits, soft CTA) |
+| [stack-starters/AGENTS.electron.md](stack-starters/AGENTS.electron.md) | Polished Electron (TypeScript desktop) `AGENTS.md` (main/preload/renderer split, contextIsolation and sandbox kept on, narrow typed IPC with validation and sender checks, CSP and navigation lock-down, no blocking the main process, `safeStorage` tokens, Playwright `_electron` E2E, signing/publish ask-first, review habits, soft CTA) |
 | [cursor-rules/project-baseline.mdc](cursor-rules/project-baseline.mdc) | Always-on Cursor project rule (`.cursor/rules/`) |
 | [copilot/copilot-instructions.md](copilot/copilot-instructions.md) | Repository-wide GitHub Copilot instructions (`.github/copilot-instructions.md`), including code review rules |
 | [copilot/tests.instructions.md](copilot/tests.instructions.md) | Path-specific Copilot instructions with an `applyTo` glob (`.github/instructions/`) |
