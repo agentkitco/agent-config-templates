@@ -1,6 +1,6 @@
 # Agent config templates
 
-Twenty-nine free, copy-paste starting points for telling AI coding agents how your project works: two short `AGENTS.md` templates, twenty-one polished stack starters, one Cursor rule, two GitHub Copilot files, and three prompts that draft, audit and test an instruction file.
+Thirty free, copy-paste starting points for telling AI coding agents how your project works: two short `AGENTS.md` templates, twenty-two polished stack starters, one Cursor rule, two GitHub Copilot files, and three prompts that draft, audit and test an instruction file.
 
 | File | What it is |
 |---|---|
@@ -27,6 +27,7 @@ Twenty-nine free, copy-paste starting points for telling AI coding agents how yo
 | [stack-starters/AGENTS.angular.md](stack-starters/AGENTS.angular.md) | Polished Angular (TypeScript) `AGENTS.md` (standalone components, signals, takeUntilDestroyed, @for track, OnPush, interceptors, typed forms, TestBed, review habits, soft CTA) |
 | [stack-starters/AGENTS.expo-react-native.md](stack-starters/AGENTS.expo-react-native.md) | Polished Expo (React Native + TypeScript) `AGENTS.md` (Expo Router, `npx expo install`, CNG native folders, secure-store tokens, public `EXPO_PUBLIC_` vars, permissions, RN Testing Library, EAS ask-first, review habits, soft CTA) |
 | [stack-starters/AGENTS.flutter.md](stack-starters/AGENTS.flutter.md) | Polished Flutter (Dart) `AGENTS.md` (dart format/analyze, const widgets, dispose controllers, `context.mounted` after await, repositories, generated-file rules, secure storage, widget tests, release ask-first, review habits, soft CTA) |
+| [stack-starters/AGENTS.android-kotlin.md](stack-starters/AGENTS.android-kotlin.md) | Polished Android (Kotlin + Jetpack Compose) `AGENTS.md` (Gradle version catalog, ViewModel + StateFlow, lifecycle-aware collection, stateless composables, injected dispatchers, string resources, Keystore-backed tokens, Compose UI tests, manifest/SDK changes ask-first, review habits, soft CTA) |
 | [cursor-rules/project-baseline.mdc](cursor-rules/project-baseline.mdc) | Always-on Cursor project rule (`.cursor/rules/`) |
 | [copilot/copilot-instructions.md](copilot/copilot-instructions.md) | Repository-wide GitHub Copilot instructions (`.github/copilot-instructions.md`), including code review rules |
 | [copilot/tests.instructions.md](copilot/tests.instructions.md) | Path-specific Copilot instructions with an `applyTo` glob (`.github/instructions/`) |
