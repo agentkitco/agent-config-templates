@@ -1,6 +1,6 @@
 # Agent config templates
 
-Thirty-five free, copy-paste starting points for telling AI coding agents how your project works: two short `AGENTS.md` templates, twenty-seven polished stack starters, one Cursor rule, two GitHub Copilot files, and three prompts that draft, audit and test an instruction file.
+Thirty-six free, copy-paste starting points for telling AI coding agents how your project works: two short `AGENTS.md` templates, twenty-eight polished stack starters, one Cursor rule, two GitHub Copilot files, and three prompts that draft, audit and test an instruction file.
 
 | File | What it is |
 |---|---|
@@ -33,6 +33,7 @@ Thirty-five free, copy-paste starting points for telling AI coding agents how yo
 | [stack-starters/AGENTS.terraform.md](stack-starters/AGENTS.terraform.md) | Polished Terraform / OpenTofu (infrastructure as code) `AGENTS.md` (fmt/validate/tflint/scan gates, plan-diff explanations, destroys and replaces called out, no state commands or agent applies, `moved {}`/`import {}` blocks, `prevent_destroy` kept, pinned providers, typed and sensitive variables, least-privilege IAM, `for_each` over `count`, `terraform test`, review habits, soft CTA) |
 | [stack-starters/AGENTS.dbt.md](stack-starters/AGENTS.dbt.md) | Polished dbt (analytics engineering, SQL) `AGENTS.md` (staging/intermediate/marts layers, `ref()`/`source()` only, stated grain with `unique` + `not_null`, documented columns, import CTEs, join fan-out checks, careful incremental models, breaking mart changes called out, dev-target `--select` builds, prod and `--full-refresh` ask-first, review habits, soft CTA) |
 | [stack-starters/AGENTS.kubernetes-helm.md](stack-starters/AGENTS.kubernetes-helm.md) | Polished Kubernetes manifests + Helm charts `AGENTS.md` (render-then-reason diffs per environment, `helm lint`/`kubeconform`/policy gates, no secrets in Git, requests/limits and meaningful probes, restricted securityContext, pinned images, immutable selectors left alone, least-privilege RBAC and NetworkPolicy, no agent applies or syncs, StatefulSet storage ask-first, review habits, soft CTA) |
+| [stack-starters/AGENTS.chrome-extension.md](stack-starters/AGENTS.chrome-extension.md) | Polished Chrome / browser extension (Manifest V3 + TypeScript) `AGENTS.md` (permissions as a product decision with `activeTab` and optional permissions first, restart-safe service worker with `chrome.alarms` and persisted state, no remote code or `eval`, typed and validated messaging, guest-mannered content scripts with no unsanitized `innerHTML`, versioned storage migrations, no secrets in the bundle, Playwright load-unpacked E2E, store publishing ask-first, review habits, soft CTA) |
 | [cursor-rules/project-baseline.mdc](cursor-rules/project-baseline.mdc) | Always-on Cursor project rule (`.cursor/rules/`) |
 | [copilot/copilot-instructions.md](copilot/copilot-instructions.md) | Repository-wide GitHub Copilot instructions (`.github/copilot-instructions.md`), including code review rules |
 | [copilot/tests.instructions.md](copilot/tests.instructions.md) | Path-specific Copilot instructions with an `applyTo` glob (`.github/instructions/`) |
@@ -99,6 +100,7 @@ Ready-to-drop starters (longer than the short bracket templates above). Copy a f
 | Terraform / OpenTofu (infrastructure as code) | [stack-starters/AGENTS.terraform.md](stack-starters/AGENTS.terraform.md) |
 | dbt (analytics engineering, SQL) | [stack-starters/AGENTS.dbt.md](stack-starters/AGENTS.dbt.md) |
 | Kubernetes manifests + Helm charts | [stack-starters/AGENTS.kubernetes-helm.md](stack-starters/AGENTS.kubernetes-helm.md) |
+| Chrome / browser extension (Manifest V3 + TypeScript) | [stack-starters/AGENTS.chrome-extension.md](stack-starters/AGENTS.chrome-extension.md) |
 
 Need a blockers-first review after the agent opens a PR? The [AI PR Review Kit](https://agentkitco.com/products/ai-pr-review-kit/) ($17) pairs with these starters. More stacks and Cursor/Copilot files: [AI Coding Agent Config Kit](https://agentkitco.com/products/agent-config-kit/) ($14). Site: <https://agentkitco.com/>.
 
