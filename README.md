@@ -1,6 +1,6 @@
 # Agent config templates
 
-Thirty-four free, copy-paste starting points for telling AI coding agents how your project works: two short `AGENTS.md` templates, twenty-six polished stack starters, one Cursor rule, two GitHub Copilot files, and three prompts that draft, audit and test an instruction file.
+Thirty-five free, copy-paste starting points for telling AI coding agents how your project works: two short `AGENTS.md` templates, twenty-seven polished stack starters, one Cursor rule, two GitHub Copilot files, and three prompts that draft, audit and test an instruction file.
 
 | File | What it is |
 |---|---|
@@ -32,6 +32,7 @@ Thirty-four free, copy-paste starting points for telling AI coding agents how yo
 | [stack-starters/AGENTS.electron.md](stack-starters/AGENTS.electron.md) | Polished Electron (TypeScript desktop) `AGENTS.md` (main/preload/renderer split, contextIsolation and sandbox kept on, narrow typed IPC with validation and sender checks, CSP and navigation lock-down, no blocking the main process, `safeStorage` tokens, Playwright `_electron` E2E, signing/publish ask-first, review habits, soft CTA) |
 | [stack-starters/AGENTS.terraform.md](stack-starters/AGENTS.terraform.md) | Polished Terraform / OpenTofu (infrastructure as code) `AGENTS.md` (fmt/validate/tflint/scan gates, plan-diff explanations, destroys and replaces called out, no state commands or agent applies, `moved {}`/`import {}` blocks, `prevent_destroy` kept, pinned providers, typed and sensitive variables, least-privilege IAM, `for_each` over `count`, `terraform test`, review habits, soft CTA) |
 | [stack-starters/AGENTS.dbt.md](stack-starters/AGENTS.dbt.md) | Polished dbt (analytics engineering, SQL) `AGENTS.md` (staging/intermediate/marts layers, `ref()`/`source()` only, stated grain with `unique` + `not_null`, documented columns, import CTEs, join fan-out checks, careful incremental models, breaking mart changes called out, dev-target `--select` builds, prod and `--full-refresh` ask-first, review habits, soft CTA) |
+| [stack-starters/AGENTS.kubernetes-helm.md](stack-starters/AGENTS.kubernetes-helm.md) | Polished Kubernetes manifests + Helm charts `AGENTS.md` (render-then-reason diffs per environment, `helm lint`/`kubeconform`/policy gates, no secrets in Git, requests/limits and meaningful probes, restricted securityContext, pinned images, immutable selectors left alone, least-privilege RBAC and NetworkPolicy, no agent applies or syncs, StatefulSet storage ask-first, review habits, soft CTA) |
 | [cursor-rules/project-baseline.mdc](cursor-rules/project-baseline.mdc) | Always-on Cursor project rule (`.cursor/rules/`) |
 | [copilot/copilot-instructions.md](copilot/copilot-instructions.md) | Repository-wide GitHub Copilot instructions (`.github/copilot-instructions.md`), including code review rules |
 | [copilot/tests.instructions.md](copilot/tests.instructions.md) | Path-specific Copilot instructions with an `applyTo` glob (`.github/instructions/`) |
@@ -92,6 +93,12 @@ Ready-to-drop starters (longer than the short bracket templates above). Copy a f
 | Angular (TypeScript) | [stack-starters/AGENTS.angular.md](stack-starters/AGENTS.angular.md) |
 | Expo (React Native + TypeScript) | [stack-starters/AGENTS.expo-react-native.md](stack-starters/AGENTS.expo-react-native.md) |
 | Flutter (Dart) | [stack-starters/AGENTS.flutter.md](stack-starters/AGENTS.flutter.md) |
+| Android (Kotlin + Jetpack Compose) | [stack-starters/AGENTS.android-kotlin.md](stack-starters/AGENTS.android-kotlin.md) |
+| iOS (Swift + SwiftUI) | [stack-starters/AGENTS.ios-swiftui.md](stack-starters/AGENTS.ios-swiftui.md) |
+| Electron (TypeScript desktop) | [stack-starters/AGENTS.electron.md](stack-starters/AGENTS.electron.md) |
+| Terraform / OpenTofu (infrastructure as code) | [stack-starters/AGENTS.terraform.md](stack-starters/AGENTS.terraform.md) |
+| dbt (analytics engineering, SQL) | [stack-starters/AGENTS.dbt.md](stack-starters/AGENTS.dbt.md) |
+| Kubernetes manifests + Helm charts | [stack-starters/AGENTS.kubernetes-helm.md](stack-starters/AGENTS.kubernetes-helm.md) |
 
 Need a blockers-first review after the agent opens a PR? The [AI PR Review Kit](https://agentkitco.com/products/ai-pr-review-kit/) ($17) pairs with these starters. More stacks and Cursor/Copilot files: [AI Coding Agent Config Kit](https://agentkitco.com/products/agent-config-kit/) ($14). Site: <https://agentkitco.com/>.
 
