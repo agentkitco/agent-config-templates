@@ -106,6 +106,7 @@ Need a blockers-first review after the agent opens a PR? The [AI PR Review Kit](
 
 ## More
 
+- Free companion repo: [claude-code-guard-hooks](https://github.com/agentkitco/claude-code-guard-hooks), four tested Claude Code hooks (plain bash plus `jq`) that block risky commands before the agent runs them, with a `--dry-run` installer
 - Free in-browser generator that outputs `AGENTS.md`, `CLAUDE.md`, a Cursor rule and a Copilot file for your stack: <https://agentkitco.com/tools/agents-md-generator/>
 - Maintained by [AgentKit Co](https://agentkitco.com). A longer paid kit is available as the [AI Coding Agent Config Kit](https://agentkitco.com/products/agent-config-kit/) ($14): a 34-page PDF plus a drop-in ZIP of 54 files (AGENTS.md templates for 12 stacks, 8 Cursor `.mdc` rules, 3 Claude Code rule files, 3 Copilot files and 12 audit/test prompts). Everything in this repo is free and nothing here is held back from it.
 - For AI-written pull requests, the [AI PR Review Kit](https://agentkitco.com/products/ai-pr-review-kit/) ($17) includes blockers-first checklists, six paste-ready PR comments, 12 review prompts and a read-only reviewer agent for Claude Code and Cursor. Pairs with the free [review checklist](https://agentkitco.com/blog/review-ai-generated-pull-requests/) above.
