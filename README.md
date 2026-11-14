@@ -1,6 +1,6 @@
 # Agent config templates
 
-Forty-two free, copy-paste starting points for telling AI coding agents how your project works: two short `AGENTS.md` templates, thirty-four polished stack starters, one Cursor rule, two GitHub Copilot files, and three prompts that draft, audit and test an instruction file.
+Forty-three free, copy-paste starting points for telling AI coding agents how your project works: two short `AGENTS.md` templates, thirty-five polished stack starters, one Cursor rule, two GitHub Copilot files, and three prompts that draft, audit and test an instruction file.
 
 | File | What it is |
 |---|---|
@@ -40,6 +40,7 @@ Forty-two free, copy-paste starting points for telling AI coding agents how your
 | [stack-starters/AGENTS.unreal.md](stack-starters/AGENTS.unreal.md) | Polished Unreal Engine 5 game (C++ + Blueprints) `AGENTS.md` (C++ for systems and Blueprints for content, Epic naming prefixes, reflected `UPROPERTY`/`TObjectPtr` members so GC keeps objects alive, `IsValid()` and `ensure` over crashes, sparing Tick, server-authoritative replication with validated RPCs, core redirects when renaming reflected members, deliberate `.Build.cs` dependencies, Enhanced Input and Data Assets, versioned `USaveGame`, headless automation tests, binary assets left to humans, engine/plugin upgrades and packaging ask-first, review habits, soft CTA) |
 | [stack-starters/AGENTS.roblox.md](stack-starters/AGENTS.roblox.md) | Polished Roblox experience (Luau + Rojo) `AGENTS.md` (server-authoritative state, validated and rate-limited remotes, no `InvokeClient`, `--!strict` types, `task` library over deprecated `wait`/`spawn`, connection cleanup, `WaitForChild` on the client, `pcall`-wrapped session-locked DataStores with migrations, idempotent `ProcessReceipt` purchases, Rojo/Wally/Selene/StyLua/luau-lsp gates, multi-client Studio play tests, publishing/data/monetization ask-first, review habits, soft CTA) |
 | [stack-starters/AGENTS.tauri.md](stack-starters/AGENTS.tauri.md) | Polished Tauri 2 desktop app (Rust + TypeScript) `AGENTS.md` (least-privilege capabilities and narrow scopes, webview treated as untrusted with Rust-side argument validation, CSP kept, no secrets in the bundle, `Result` commands with serializable errors, async/`spawn_blocking` for heavy work, managed state without locks across awaits, typed `invoke` wrappers, mocked-IPC frontend tests, fmt/clippy/test gates, signing/updater/plugin and capability changes ask-first, review habits, soft CTA) |
+| [stack-starters/AGENTS.pytorch-ml.md](stack-starters/AGENTS.pytorch-ml.md) | Polished PyTorch machine learning project (Python) `AGENTS.md` (leak-free fixed splits, no tuning on test, raw data never modified, device-agnostic CPU-testable code, seeded runs, explicit train/eval modes and `inference_mode`, no hot-loop GPU syncs, full checkpoints loaded with `weights_only=True`, rank-0-only logging under DDP/FSDP, no invented metrics, overfit-one-batch and shape tests, smoke-train gate, GPU jobs/data/split changes ask-first, review habits, soft CTA) |
 | [cursor-rules/project-baseline.mdc](cursor-rules/project-baseline.mdc) | Always-on Cursor project rule (`.cursor/rules/`) |
 | [copilot/copilot-instructions.md](copilot/copilot-instructions.md) | Repository-wide GitHub Copilot instructions (`.github/copilot-instructions.md`), including code review rules |
 | [copilot/tests.instructions.md](copilot/tests.instructions.md) | Path-specific Copilot instructions with an `applyTo` glob (`.github/instructions/`) |
@@ -113,6 +114,7 @@ Ready-to-drop starters (longer than the short bracket templates above). Copy a f
 | Unreal Engine 5 game (C++ + Blueprints) | [stack-starters/AGENTS.unreal.md](stack-starters/AGENTS.unreal.md) |
 | Roblox experience (Luau + Rojo) | [stack-starters/AGENTS.roblox.md](stack-starters/AGENTS.roblox.md) |
 | Tauri 2 desktop app (Rust + TypeScript) | [stack-starters/AGENTS.tauri.md](stack-starters/AGENTS.tauri.md) |
+| PyTorch machine learning project (Python) | [stack-starters/AGENTS.pytorch-ml.md](stack-starters/AGENTS.pytorch-ml.md) |
 
 Need a blockers-first review after the agent opens a PR? The [AI PR Review Kit](https://agentkitco.com/products/ai-pr-review-kit/) ($17) pairs with these starters. More stacks and Cursor/Copilot files: [AI Coding Agent Config Kit](https://agentkitco.com/products/agent-config-kit/) ($14). Site: <https://agentkitco.com/>.
 
